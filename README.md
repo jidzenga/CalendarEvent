@@ -62,6 +62,8 @@ We're done for now on Adafruit, make sure to keep a tab open on the dashboard, w
 Now we can start coding. Open a new Arduino file and copy the whole code below in your file.
 
 <details><summary>The Code (click me)</summary>
+  
+  
 <p>
 
 ## Copy the whole code in your new Arduino File
@@ -184,5 +186,20 @@ void handleMessage(AdafruitIO_Data *data) {
 </p>
 </details>
 
+
+
 There are a couple of things we need to change in our code to make it work. Change everything noted in this picture:
 <img src="EditThis.png" alt="ESP8266" width="250px">
+
+After you have changed these things you can upload the code by pressing the "Upload button". This will now upload the code to the ESP8266 you have connected through USB.
+
+After the uploading is done you can open your serial monitor (make sure you set the baud rate to 115200) and you can see that the ESP has connected to Adafruit.
+
+
+## 5. Hardware
+
+Now it's time to connect the NeoPixel to our ESP board.
+
+First you have to cut the Strip to the right length and solder or hot glue three jumper wires to each of the three connectors: "Ground", "Din" and "+5V".
+
+Next, you can connect the female ends of the jumper cables to the ESP board. Connect Ground to "GND", Din to "D6" (OR ANY OTHER DIN CONNECTOR, MAKE SURE YOU CHANGE D6 TO YOUR PREFERRED CONNECTION IF YOU CHANGE IT) and "+5V" to "3V"
