@@ -59,6 +59,8 @@ We're done for now on Adafruit, make sure to keep a tab open on the dashboard, w
 
 ## 4. The Code
 
+Now we can start coding. Open a new Arduino file and copy the whole code below in your file.
+
 <details><summary>The Code (click me)</summary>
 <p>
 
@@ -181,3 +183,6 @@ void handleMessage(AdafruitIO_Data *data) {
 
 </p>
 </details>
+
+There are a couple of things we need to change in our code to make it work. Change everything noted in this picture:
+<img src="EditThis.png" alt="ESP8266" width="250px">
