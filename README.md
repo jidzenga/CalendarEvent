@@ -39,23 +39,31 @@ When you first open up arduino, you need to install a couple of things first.
 5. Next go to "Sketch" > "Include library" > "Manage libraries" and search and install the following libraries: "Adafruit MQTT library", "Adafruit NeoPixel", "Adafruit IO Arduino".
 6. Restart your Arduino software.
 
+### Testing:
+
+1. To test if everything is working properly, go to "File" > "Examples" > "Basics" and select "Blink"
+2. Change "LED_BUILTIN" to "2" throughout the whole code
+3. Upload the sketch to your ESP8266 by pressing the Upload button or by pressing Ctrl+U
+4. If the Built In led blinks then everything is working properly!
+
 ### Adafruit
 
-https://io.adafruit.com/
-create an account, save your settings go back to https://io.adafruit.com
-greeted by dashboard lets go ahead and create your first dashboard.
-click on "actions" and then "create new Dashboard
-Give it a name of your liking and optionally write a short description
-Now on the left hand of the page click on Feeds.
-Create a new feed the same way you created your dashboard.
-Now go back to dashboards and click on your newly created dashboard
-Click on the blue + icon on the top right of the page
-Now select the color picker
-It will ask you to connect a feed to your color picker, select the feed you just made and press next
-After that click on Create Block
-When you click on the color picker circle you can now select a color, it won't do anything yet though.
-On the top right you can see a little key icon, press that and copy your key somewhere, we will need it later.
-We're done for now on Adafruit, make sure to keep a tab open on the dashboard, we will need it soon.
+Adafruit is a free website that lets gather data from your ESP8266 so that it will be accesible online. This data can be used to work togehter with other websites and services. Here's how we set it up:
+
+1. Go to https://io.adafruit.com/, create an account, save your settings and go back to https://io.adafruit.com.
+2. Greeted by the dashboard lets go ahead and create your first dashboard.
+3. Click on "actions" and then "create new Dashboard"
+4. Give it a name of your liking and optionally write a short description
+5. Now on the left hand of the page click on Feeds.
+6. Create a new feed the same way you created your dashboard.
+7. Now go back to dashboards and click on your newly created dashboard
+8. Click on the blue + icon on the top right of the page
+9. Now select the color picker
+10. It will ask you to connect a feed to your color picker, select the feed you just made and press next
+11. After that click on Create Block
+12. When you click on the color picker circle you can now select a color, it won't do anything yet though.
+13. On the top right you can see a little key icon, press that and copy your key somewhere, we will need it later.
+14. We're done for now on Adafruit, make sure to keep a tab open on the dashboard, we will need it soon.
 
 ## 4. The Code
 
@@ -202,4 +210,36 @@ Now it's time to connect the NeoPixel to our ESP board.
 
 First you have to cut the Strip to the right length and solder or hot glue three jumper wires to each of the three connectors: "Ground", "Din" and "+5V".
 
-Next, you can connect the female ends of the jumper cables to the ESP board. Connect Ground to "GND", Din to "D6" (OR ANY OTHER DIN CONNECTOR, MAKE SURE YOU CHANGE D6 TO YOUR PREFERRED CONNECTION IF YOU CHANGE IT) and "+5V" to "3V"
+Next, you can connect the female ends of the jumper cables to the ESP board. Connect Ground to "GND", Din to "D6" (OR ANY OTHER DIN CONNECTOR, MAKE SURE YOU CHANGE D6 TO YOUR PREFERRED CONNECTION IF YOU CHANGE IT) and "+5V" to "3V" (Five volt is recommended but 3 volt will do just fine).
+
+
+## 5. Testing the color picker
+
+You can head back to your Adafruit Dashboard and click the color circle and select a circle, the color you pick should match the color that the NeoPixel puts out.
+
+When you change your Colorpicker color you can see the values wrote down in your Adafruit feed.
+
+
+## 6. Connecting to IFTTT
+
+Next, we're gonna connect the data in our feed to IFTTT (If This Then That). IFTTT is a free website that lets you connect different devices and services to each other. You can use it to do all kinds of cool things, today we're gonna use it to connect the Adafruit data in our feed to our Google Calendar.
+
+First, go to this link and create a free IFTTT account: https://ifttt.com/join.
+
+Once you've done that you can click "My Applets" and then click "New Applet" to create a new applet. An applet is basically an interaction you have created between different services, you can turn them on and off whenever you like.
+
+Now click on the big blue "THIS" letters to create a trigger. Search for the "Adafruit service" and authorize your Adafruit account.
+
+Click on the "Monitor a feed on Adafruit IO" Field. Now select your Adafruit feed, make the relationship "Equal to" and set the value to "FF0000". Now the trigger will be the value FF0000 written to your feed. The color red in this case.
+
+Now click on the big blue "THAT" letters to create an action. Search for Google Calendar and authorize your Google account.
+
+Next, you can choose to create a quick or a detailed event. We're just gonna go for a quick event for now. Select your calander and the message to be displayed in your calander.
+
+Now when you select the color #FF0000 on the color picker a new event will be created on your Google Calendar.
+
+
+
+## 7. Final words
+
+I hope you've learned something from this tutorial, let me know if you have questions. Your creativity is the limit on these projects, make sure to check out https://www.hackster.io/ifttt/projects for more ideas. Good luck!
