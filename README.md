@@ -1,6 +1,6 @@
-## Calender Event with ESP8266, Arduino, Adafruit and IFTTT
+# Calender Event with ESP8266, Arduino, Adafruit and IFTTT
 
-# 1. Introduction
+## 1. Introduction
 
 This tutorial will teach you how to connect your ESP8266 to Adafruit to read out your data online. This data will then be used to automatically create a google calendar event using IFTTT. The data that we will be using is from a NeoPixel RGB LED strip that we can control online through Adafruit.
 
