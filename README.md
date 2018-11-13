@@ -6,21 +6,15 @@ This tutorial will teach you how to connect your ESP8266 to Adafruit to read out
 
 ## 2. What do I need?
 
-1. An ESP8266, this is a low-cost microchip with built in WiFi:
+<img src="Items.jpg" alt="ESP8266" width="250px">
 
-<img src="https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/06/13/goods-img/1501699031787010991.jpg" alt="ESP8266" width="250px">
+1. An ESP8266, this is a low-cost microchip with built in WiFi:
 
 2. 3x male to female jumper wires
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/61nHxQZGSTL._SX355_.jpg" alt="ESP8266" width="250px">
-
 3. Micro USB cable
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/81Ays2GXOPL._SX569_.jpg" alt="ESP8266" width="250px">
-
 4. NeoPixel RGB LED Strip
-
-<img src="https://cdn-shop.adafruit.com/1200x900/2561-00.jpg" alt="ESP8266" width="250px">
 
 ## 3. Setting up
 
