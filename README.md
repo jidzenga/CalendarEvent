@@ -7,4 +7,5 @@ This tutorial will teach you how to connect your ESP8266 to Adafruit to read out
 # 2. What do I need?
 
 -An ESP8266, this is a low-cost microchip with built in WiFi:
+
 ![image description](https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/06/13/goods-img/1501699031787010991.jpg)
