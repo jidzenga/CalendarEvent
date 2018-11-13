@@ -189,7 +189,7 @@ void handleMessage(AdafruitIO_Data *data) {
 
 
 There are a couple of things we need to change in our code to make it work. Change everything noted in this picture:
-<img src="EditThis.png" alt="ESP8266" width="250px">
+<img src="EditThisCode.png" alt="ESP8266" width="250px">
 
 After you have changed these things you can upload the code by pressing the "Upload button". This will now upload the code to the ESP8266 you have connected through USB.
 
