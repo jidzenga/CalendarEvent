@@ -17,3 +17,7 @@ This tutorial will teach you how to connect your ESP8266 to Adafruit to read out
 3. Micro USB cable
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/81Ays2GXOPL._SX569_.jpg" alt="ESP8266" width="250px">
+
+4. NeoPixel RGB LED Strip
+
+<img src="https://cdn-shop.adafruit.com/1200x900/2561-00.jpg" alt="ESP8266" width="250px">
