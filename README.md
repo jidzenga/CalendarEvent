@@ -10,9 +10,9 @@ This tutorial will teach you how to connect your ESP8266 to Adafruit to read out
 
 <img src="https://gloimg.gbtcdn.com/gb/pdm-product-pic/Electronic/2017/06/13/goods-img/1501699031787010991.jpg" alt="ESP8266" width="250px">
 
-2. 3x female to female jumper wires
+2. 3x male to female jumper wires
 
-<img src="https://cdn.sparkfun.com//assets/parts/9/6/1/4/12796-00.jpg" alt="ESP8266" width="250px">
+<img src="https://images-na.ssl-images-amazon.com/images/I/61nHxQZGSTL._SX355_.jpg" alt="ESP8266" width="250px">
 
 3. Micro USB cable
 
