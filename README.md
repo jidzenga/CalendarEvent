@@ -6,7 +6,7 @@ This tutorial will teach you how to connect your ESP8266 to Adafruit to read out
 
 ## 2. What do I need?
 
-<img src="Items.jpg" alt="ESP8266" width="250px">
+<img src="Items.jpg" alt="ESP8266" width="450px">
 
 1. An ESP8266, this is a low-cost microchip with built in WiFi:
 
