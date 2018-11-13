@@ -30,6 +30,15 @@ For the code of this project we're gonna be using Arduino. This is a free open-s
 
 You can download it for free here: https://www.arduino.cc/en/Main/Software
 
+When you first open up arduino, you need to install a couple of things first.
+
+1. Go to File > Preferences, at the bottom in the field "Additional Boardmanager URL's" enter this : http://arduino.esp8266.com/stable/package_esp8266com_index.json and click OK.
+2. Now click "Tools" > "Board" > "Boards manager" and search "esp8266" and install "esp8266 by esp8266 Community" and restart the arduino software
+3. Connect your ESP to your pc through USB and go to "Tools" > "Board" and select "NodeMCU 1.0 ESP12E Module"
+4. Now go to "Tools" > "Port" and select the "...usbserial14...". If a COM port is available, that will work aswell.
+5. Next go to "Sketch" > "Include library" > "Manage libraries" and search and install the following libraries: "Adafruit MQTT library", "Adafruit NeoPixel", "Adafruit IO Arduino".
+6. Restart your Arduino software.
+
 ### Adafruit
 
 https://io.adafruit.com/
