@@ -76,7 +76,7 @@ Adafruit is a free website that lets gather data from your ESP8266 so that it wi
 
 12. When you click on the color picker circle you can now select a color, it won't do anything yet though.
 
-<img src="Colorpicker.jpg" alt="ESP8266" width="250px">
+<img src="Colorpicker.JPG" alt="ESP8266" width="250px">
 
 13. On the top right you can see a little key icon, press that and copy your key somewhere, we will need it later.
 
