@@ -227,7 +227,7 @@ After you have changed these things you can upload the code by pressing the "Upl
 
 After the uploading is done you can open your serial monitor (make sure you set the baud rate to 115200) and you can see that the ESP has connected to Adafruit.
 
-<img src="Serialmonitor.png" alt="ESP8266" width="250px">
+<img src="Serialmonitor.JPG" alt="ESP8266" width="250px">
 
 
 ## 5. Hardware
@@ -238,7 +238,7 @@ First you have to cut the Strip to the right length and solder or hot glue three
 
 Next, you can connect the female ends of the jumper cables to the ESP board. Connect Ground to "GND", Din to "D6" (OR ANY OTHER DIN CONNECTOR, MAKE SURE YOU CHANGE D6 TO YOUR PREFERRED CONNECTION IF YOU CHANGE IT) and "+5V" to "3V" (Five volt is recommended but 3 volt will do just fine).
 
-<img src="Connection.png" alt="ESP8266" width="250px">
+<img src="Connection.JPG" alt="ESP8266" width="250px">
 
 
 ## 5. Testing the color picker
@@ -247,7 +247,7 @@ You can head back to your Adafruit Dashboard and click the color circle and sele
 
 When you change your Colorpicker color you can see the values wrote down in your Adafruit feed, you can try that out now!
 
-<img src="LEDStrip.png" alt="ESP8266" width="250px">
+<img src="LEDStrip.JPG" alt="ESP8266" width="250px">
 
 
 ## 6. Connecting to IFTTT
@@ -268,7 +268,7 @@ Next, we're gonna connect the data in our feed to IFTTT (If This Then That). IFT
 
 7. Now when you select the color #FF0000 on the color picker a new event will be created on your Google Calendar, try it out!
 
-<img src="Googlecalendar.png" alt="ESP8266" width="250px">
+<img src="Googlecalendar.JPG" alt="ESP8266" width="250px">
 
 
 
