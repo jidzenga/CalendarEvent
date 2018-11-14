@@ -241,7 +241,7 @@ Next, you can connect the female ends of the jumper cables to the ESP board. Con
 <img src="Connection.jpg" alt="ESP8266" width="250px">
 
 
-## 5. Testing the color picker
+## 6. Testing the color picker
 
 You can head back to your Adafruit Dashboard and click the color circle and select a circle, the color you pick should match the color that the NeoPixel puts out.
 
@@ -250,7 +250,7 @@ When you change your Colorpicker color you can see the values wrote down in your
 <img src="LEDStrip.jpg" alt="ESP8266" width="250px">
 
 
-## 6. Connecting to IFTTT
+## 7. Connecting to IFTTT
 
 Next, we're gonna connect the data in our feed to IFTTT (If This Then That). IFTTT is a free website that lets you connect different devices and services to each other. You can use it to do all kinds of cool things, today we're gonna use it to connect the Adafruit data in our feed to our Google Calendar.
 
@@ -272,6 +272,6 @@ Next, we're gonna connect the data in our feed to IFTTT (If This Then That). IFT
 
 
 
-## 7. Final words
+## 8. Final words
 
 I hope you've learned something from this tutorial, let me know if you have questions. Your creativity is the limit on these projects, make sure to check out https://www.hackster.io/ifttt/projects for more ideas. Good luck!
