@@ -268,7 +268,7 @@ Next, we're gonna connect the data in our feed to IFTTT (If This Then That). IFT
 
 7. Now when you select the color #FF0000 on the color picker a new event will be created on your Google Calendar, try it out!
 
-<img src="Googlecalendar.jpg" alt="ESP8266" width="250px">
+<img src="Googlecalendar.JPG" alt="ESP8266" width="250px">
 
 
 
